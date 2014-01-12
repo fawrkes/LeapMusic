@@ -13,7 +13,7 @@
 
 - (id)init
 {
-    NSLog(@"HI");
+    NSLog(@"This should print");
     return self;
 }
 
