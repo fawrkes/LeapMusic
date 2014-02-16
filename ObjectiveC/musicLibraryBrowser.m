@@ -10,7 +10,6 @@
 
 @implementation musicLibraryBrowser
 
-
 - (id)init
 {
     NSLog(@"This should print");

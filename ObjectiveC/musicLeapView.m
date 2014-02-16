@@ -15,6 +15,11 @@
 // Necessary Leap constant (lifted from LeapMotion SDK)
 #define   DEGREES_TO_RADIANS(degrees)  ((pi * degrees)/ 180)
 
+static const int BEAT1 = 0;
+static const int BEAT2 = 1;
+static const int BEAT3 = 2;
+static const int BEAT4 = 3;
+
 @implementation musicLeapView
 {
     // Conducting Style
@@ -34,9 +39,8 @@
     
 }
 
-- (id)initWithFrame:(NSRect)frame
+- (id) initWithFrame:(NSRect)frame
 {
-    
     // Create View
     self = [super initWithFrame:frame];
         
@@ -573,13 +577,13 @@
                 // Allow one initial value to pass for redundency, null, and error checking
                 int one = 1;
                 // Set current beat time to the latest impact
-                currentBeatTimes[beat1] = [hit1 objectAtIndex:one];
+                currentBeatTimes[BEAT1] = [hit1 objectAtIndex:one];
 
                 // Reset beats not needed for calculation of rate
                 [self resetBeats:beat2 and:beat3];
 
                 // Update playback rate
-                [self updateRate:beat1 and:beat4];
+                [self updateRate:BEAT1 and:beat4];
             }
 
             break;
@@ -595,7 +599,7 @@
                 int one = 1;
                 currentBeatTimes[beat2] = [hit2 objectAtIndex:one];
                 [self resetBeats:beat3 and:beat4];
-                [self updateRate:beat2 and:beat1];
+                [self updateRate:beat2 and:BEAT1];
             }
             break;
             
@@ -609,7 +613,7 @@
             {
                 int one = 1;
                 currentBeatTimes[beat3] = [hit3 objectAtIndex:one];
-                [self resetBeats:beat4 and:beat1];
+                [self resetBeats:beat4 and:BEAT1];
                 [self updateRate:beat3 and:beat2];
             }
             break;
@@ -623,7 +627,7 @@
             {
                 int one = 1;
                 currentBeatTimes[beat4] = [hit4 objectAtIndex:one];
-                [self resetBeats:beat1 and:beat2];
+                [self resetBeats:BEAT1 and:beat2];
                 [self updateRate:beat4 and:beat3];
             }
             break;
