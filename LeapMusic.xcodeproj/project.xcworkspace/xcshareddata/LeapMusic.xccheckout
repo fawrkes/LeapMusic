@@ -5,13 +5,15 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>CFB79730-0444-4E19-BBBB-747DCB7F305E</string>
+	<string>9F72F117-31AC-4C32-9931-C1F2FD422B9A</string>
 	<key>IDESourceControlProjectName</key>
 	<string>LeapMusic</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7BE3B46C-A3A0-459C-89EF-C008F46AB6D2</key>
 		<string>https://github.com/ProjectCircle14/PC_iOS.git</string>
+		<key>EB57F3F7-64CD-48FD-881A-29F12907A339</key>
+		<string>https://github.com/fawrkes/LeapMusic.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Leap Music/LeapMusic/LeapMusic.xcodeproj/project.xcworkspace</string>
@@ -19,15 +21,25 @@
 	<dict>
 		<key>7BE3B46C-A3A0-459C-89EF-C008F46AB6D2</key>
 		<string>../../../..</string>
+		<key>EB57F3F7-64CD-48FD-881A-29F12907A339</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/ProjectCircle14/PC_iOS.git</string>
+	<string>https://github.com/fawrkes/LeapMusic.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
 	<string>7BE3B46C-A3A0-459C-89EF-C008F46AB6D2</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EB57F3F7-64CD-48FD-881A-29F12907A339</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LeapMusic</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

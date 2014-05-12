@@ -12,6 +12,7 @@
 		24EB3400172E32FD00E01C2B /* libLeap.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24EB33F9172E319500E01C2B /* libLeap.dylib */; };
 		24EB3403172E38D000E01C2B /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EB3402172E38D000E01C2B /* ScriptingBridge.framework */; };
 		5D18EDB31853BF99000188F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D18EDB21853BF99000188F1 /* Images.xcassets */; };
+		5D1D7B2B18B13720004D7203 /* itunesList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D1D7B2A18B13720004D7203 /* itunesList.xib */; };
 		5D232E7718465AC600FF9F88 /* musicLeapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D232E7618465AC600FF9F88 /* musicLeapView.m */; };
 		5D4816D3184F081700292C13 /* song_bass.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D4816D2184F081700292C13 /* song_bass.mp3 */; };
 		5D4816D6184F13A200292C13 /* song_mega.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D4816D5184F13A200292C13 /* song_mega.mp3 */; };
@@ -58,6 +59,7 @@
 		24EB3401172E35EC00E01C2B /* Xcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Xcode.h; sourceTree = "<group>"; };
 		24EB3402172E38D000E01C2B /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
 		5D18EDB21853BF99000188F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../LeapMusic/Images.xcassets; sourceTree = "<group>"; };
+		5D1D7B2A18B13720004D7203 /* itunesList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = itunesList.xib; path = ObjectiveC/itunesList.xib; sourceTree = "<group>"; };
 		5D232E7518465AC600FF9F88 /* musicLeapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = musicLeapView.h; sourceTree = "<group>"; };
 		5D232E7618465AC600FF9F88 /* musicLeapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = musicLeapView.m; sourceTree = "<group>"; };
 		5D4816D2184F081700292C13 /* song_bass.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song_bass.mp3; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 		B599FCB81656F5020092AFFD = {
 			isa = PBXGroup;
 			children = (
+				5D1D7B2A18B13720004D7203 /* itunesList.xib */,
 				B599FCCD1656F5020092AFFD /* LeapMusic */,
 				B599FCC61656F5020092AFFD /* Frameworks */,
 				B599FCC41656F5020092AFFD /* Products */,
@@ -289,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D1D7B2B18B13720004D7203 /* itunesList.xib in Resources */,
 				B599FCD21656F5020092AFFD /* InfoPlist.strings in Resources */,
 				B599FCD81656F5020092AFFD /* Credits.rtf in Resources */,
 				5D4816D3184F081700292C13 /* song_bass.mp3 in Resources */,

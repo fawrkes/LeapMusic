@@ -36,7 +36,6 @@ static const int BEAT4 = 3;
 
     // Whether or not to use effects
     bool cutConductFollowEffects;
-    
 }
 
 - (id) initWithFrame:(NSRect)frame
@@ -619,6 +618,7 @@ static const int BEAT4 = 3;
             break;
             
         case 4:
+            
             hit4Time = [NSNumber numberWithFloat:time];
             [hit4 addObject:hit4Time];
             [appDelegate.beat setStringValue:@"4"];

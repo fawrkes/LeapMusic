@@ -16,6 +16,9 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+// Main Window
+@property (nonatomic, strong, readonly)IBOutlet NSWindow *window;
+
 // Leap Motion configuration
 @property LeapFrame *currentFrame;
 @property (nonatomic, strong, readonly) musicLeapListener *musicLeapListener;
@@ -23,9 +26,6 @@
 // Application-specific
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification;
 - (IBAction)quit:(id)sender;
-
-// Main Window
-@property (nonatomic, strong, readonly)IBOutlet NSWindow *window;
 
 // Main Conducting View
 @property (weak) IBOutlet NSImageView *mainView;

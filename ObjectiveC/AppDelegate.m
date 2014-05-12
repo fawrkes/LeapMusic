@@ -45,18 +45,18 @@
 }
 
 // Quit application
-- (IBAction)quit:(id)sender
+- (IBAction) quit:(id)sender
 {
     [NSApp terminate:self];
 }
 
 // Begin playing song
-- (IBAction)playSong:(id)sender
+- (IBAction) playSong:(id)sender
 {
     [self playAllAudio];
 }
 
-- (IBAction)stopMusic:(id)sender
+- (IBAction) stopMusic:(id)sender
 {
     NSLog(@"Pausing song.");
     [audioPlayer pause];
@@ -64,7 +64,7 @@
     [audioPlayerMega pause];
 }
 
-- (IBAction)restartSong:(id)sender
+- (IBAction) restartSong:(id)sender
 {
     NSLog(@"Restarting song.");
     [self stopAllAudio];
